@@ -161,6 +161,8 @@ img {
 .hero {
   background-color: var(--item-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-family: inherit;
@@ -172,7 +174,6 @@ img {
   text-transform: uppercase;
   color: var(--additional-color);
   max-width: 694px;
-  padding-top: 200px;
   margin: 0 auto;
 }
 
@@ -181,7 +182,6 @@ img {
   height: 50px;
   border-radius: 4px;
   margin-top: 30px;
-  margin-bottom: 200px;
 
   font-family: inherit;
   font-weight: 700;
@@ -234,6 +234,7 @@ img {
 /* -------------JOB-------------- */
 .job {
   background-color: var(--main-background-color);
+  padding-bottom: 94px;
 }
 
 .job-title-list {
@@ -258,10 +259,6 @@ img {
 /* -------------TEAM-------------- */
 .team {
   background-color: var(--secondary-background-color);
-}
-
-.team-img {
-  margin-bottom: 30px;
 }
 
 .team-title-list {
@@ -299,6 +296,11 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--item-color);
+}
+
+.team-position {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* -------------FOOTER-------------- */
@@ -444,6 +446,6 @@ img {
 }
 
 .description {
-  padding: 20px 24px 54px;
-  border-bottom: 1px solid #eeeeee;
+  padding: 20px 24px 20px 24px;
+  border: 1px solid #eeeeee;
 }
